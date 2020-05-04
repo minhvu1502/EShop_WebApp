@@ -17,4 +17,8 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0-preview.3.20215.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\eShop.Data\eShop.Data.csproj" />
+  </ItemGroup>
+
 </Project>

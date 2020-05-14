@@ -5,7 +5,7 @@ using eShop.Application.Dtos;
 
 namespace eShop.Application.Catalog.Products.Dtos.Public
 {
-    class GetProductPagingRequest:PagingRequestBase
+    public class GetProductPagingRequest:PagingRequestBase
     {
         public int? CategoryId { get; set; }
     }

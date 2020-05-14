@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using eShop.Application.Catalog.Products.Dtos;
-using eShop.Application.Catalog.Products.Dtos.Manage;
 using eShop.Application.Catalog.Products.Dtos.Public;
+using eShop.Application.Catalog.Products.Interface;
 using eShop.Application.Dtos;
 using eShopSolution.Data.EF;
 using Microsoft.EntityFrameworkCore;
@@ -64,5 +64,6 @@ namespace eShop.Application.Catalog.Products
             };
             return pagedResult;
         }
+
     }
 }

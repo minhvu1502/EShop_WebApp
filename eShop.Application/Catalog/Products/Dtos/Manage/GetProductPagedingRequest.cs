@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using eShop.Application.Dtos;
 
-namespace eShop.Application.Catalog.Products.Dtos
+namespace eShop.Application.Catalog.Products.Dtos.Manage
 {
    public class GetProductPagedingRequest:PagingRequestBase
     {
